@@ -47,6 +47,8 @@ app.post('/users', (req, res) => {
     )
 })
 
+//add hello world
+
 app.put('/users', (req, res) => {
     connection.query(
         'UPDATE `users` SET `fname`=?, `lname`=?, `username`=?, `password`=?, `avatar`=? WHERE id =?',
